@@ -3,7 +3,7 @@ import React from "react";
 const Child=({loggedIn})=>{
         return(
             <div className="child" style={{display:loggedIn?"block":"none"}}>
-                Your are logged in!
+                <p>Your are logged in!</p>
             </div>
         )
 }
